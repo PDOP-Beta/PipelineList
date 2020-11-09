@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Pipeline-Jenkin-Sonar-Postgres",
+		"url":"https://github.com/PDOP-Beta/Pipeline-Jenkin-Sonar-Postgres",
+        "git": "https://github.com/PDOP-Beta/Pipeline-Jenkin-Sonar-Postgres.git",
+        "description":"This docker Compose file is for Jenkins, sonar and postgresql containers. It makes sure that the data for sonar, Jenkins and Postgres is persistent even after we delete and upgrade the containers."
+    },
+    {
+        "id": 2,
+        "name": "Pipeline-Jenkin-Sonar-Embedded-DB",
+		"url":"https://github.com/PDOP-Beta/Pipeline-Jenkin-Sonar-Embedded-DB",
+        "git": "https://github.com/PDOP-Beta/Pipeline-Jenkin-Sonar-Embedded-DB.git",
+        "description":"This is docker Compose for Jenkins and sonar containers. It makes sure that the data for sonar and Jenkins is persistent even after we delete and upgrade the containers."
+    },
+    {
+        "id": 3,
+        "name": "Pipeline-Angular-SpringBoot",
+		"url":"https://github.com/PDOP-Beta/Pipeline-Angular-SpringBoot",
+        "git": "https://github.com/PDOP-Beta/Pipeline-Angular-SpringBoot.git",
+        "description":"This is docker Compose will help you configure CI/CD for a spring boot or java based project with an Angular/React frontend. It creates a custom jenkins image which has maven, node and all required libraries set for running uyour pipeline. It makes sure that the data for sonar and Jenkins is persistent even after we delete and upgrade the containers."
+    }
+]
